@@ -1,0 +1,150 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+	border-bottom: 1px solid gray;
+}
+
+.navbar a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.navbar-title {
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.navbar-items {
+	display: flex;
+	gap: 1em;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1em;
+	gap: 0.5em;
+	cursor: pointer;
+	padding: 0.5em 1em;
+}
+
+.navbar-item:hover {
+	padding: 0.5em 1em;
+	border-radius: 0.25em;
+	background: #cecece;
+}
+
+.add-button {
+	font-size: 1.25em;
+}
+
+.edit-button {
+	font-size: 1em;
+}
+
+.search-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	gap: 1em;
+	padding: 1em;
+}
+
+.search-title-container {
+	flex: 1 1 60%;
+}
+
+.title-input {
+	width: 100%;
+	padding: 0.5em;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid black;
+	font-size: 1.5em;
+}
+
+.search-tag-container {
+	flex: 1 1 40%;
+}
+
+.note-grid-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	margin: 1em;
+	flex-wrap: wrap;
+}
+
+.note-item {
+	padding: 1em;
+	background: #f6f6f6;
+	border-radius: 0.5em;
+	cursor: pointer;
+	flex: 1 1 30%;
+	color: #000000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.note-item a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.note-date {
+	font-weight: 300;
+	font-size: 1em;
+}
+
+.note-title {
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.note-tag-list {
+	display: flex;
+	flex-direction: row;
+	gap: 0.25em;
+	justify-content: start;
+	align-items: center;
+	margin: 0.25em 0 0.5em 0;
+}
+
+.tag-item {
+	background: #eeeeee;
+	padding: 0.25em 1em;
+	border-radius: 0.25em;
+	font-size: 0.75em;
+	font-weight: 800;
+	color: #828282;
+}
+
+.all-notes-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1em;
+	margin: 1em;
+}
+
+.form-control {
+	border: none !important;
+	border-radius: 0 !important;
+	border-bottom: 1px solid black !important;
+}
+
+.form-control:focus {
+	outline: none !important;
+}
+
+.btn.btn-outline-danger {
+	border: none !important;
+}
