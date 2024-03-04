@@ -15,6 +15,7 @@ export function Note({ onDelete }: NoteProps) {
 	return (
 		<>
 			<div className="note">
+				<div>testing</div>
 				<div className="note-option-items">
 					<Link to={`/${note.id}/edit`}>
 						<div className="note-option-item">
