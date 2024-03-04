@@ -71,7 +71,6 @@ export function NoteList({
 
 	return (
 		<>
-			<div>testing</div>
 			<div className="navbar">
 				<div className="navbar-title">Cheatsheets</div>
 				<div className="navbar-items">
