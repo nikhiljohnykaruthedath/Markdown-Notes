@@ -7,6 +7,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: install npm
+        run: npm install
+
       - name: run npm
         run: npm run dev
 
