@@ -12,7 +12,7 @@ describe("Edit", () => {
 
 		cy.get("a > .note-option-item").click();
 		cy.get(".title-input").type("2");
-		cy.get(".markdown-input").type("5");
+		cy.get(".markdown-input").type("2");
 		cy.get(".save-btn").click();
 
 		cy.get("a > .note-option-item").should("exist");
